@@ -1,6 +1,7 @@
-name: Deploy Bicep File for App
+name: 'Deploy Bicep File for App'
 
-trigger: none
+trigger:
+ - master
 
 variables:
   resourceGroupName: 'rg-bicep-demo-0017'
